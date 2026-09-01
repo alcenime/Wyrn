@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg_t10" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#12233f"/>
+      <stop offset="100%" stop-color="#060e1c"/>
+    </radialGradient>
+    <radialGradient id="body_t10" cx="35%" cy="28%" r="75%">
+      <stop offset="0%" stop-color="#d9a8ff"/>
+      <stop offset="100%" stop-color="#8b3fd6"/>
+    </radialGradient>
+    <linearGradient id="fin_t10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9a8ff"/>
+      <stop offset="100%" stop-color="#8b3fd6"/>
+    </linearGradient>
+    <linearGradient id="horn_t10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff1c9"/>
+      <stop offset="100%" stop-color="#e8b64a"/>
+    </linearGradient>
+    <radialGradient id="gem_t10" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff3b0"/>
+      <stop offset="55%" stop-color="#ff9d3d"/>
+      <stop offset="100%" stop-color="#ff5b1f"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="1000" fill="url(#bg_t10)"/>
+
+  <path d="M 640,880 C 760,860 840,780 830,690 C 822,615 760,590 715,610
+           C 745,630 760,665 745,700 C 730,735 690,745 660,730
+           C 690,760 690,810 640,880 Z"
+        fill="#8b3fd6" stroke="#0c0c0c" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M 620,650 C 660,600 730,585 775,610 C 745,600 705,610 680,635 Z"
+        fill="url(#gem_t10)" stroke="#0c0c0c" stroke-width="7" stroke-linejoin="round"/>
+
+  <g stroke="#0c0c0c" stroke-width="9" stroke-linejoin="round" fill="url(#fin_t10)">
+    <path d="M 430,190 L 470,90 L 500,205 Z"/>
+    <path d="M 500,175 L 545,65 L 580,195 Z"/>
+    <path d="M 575,195 L 620,100 L 645,225 Z"/>
+  </g>
+
+  
+
+  <ellipse cx="500" cy="640" rx="270" ry="230" fill="url(#body_t10)" stroke="#0c0c0c" stroke-width="11"/>
+  <ellipse cx="500" cy="720" rx="150" ry="130" fill="#fff6da" opacity="0.9"/>
+
+  <circle cx="500" cy="380" r="230" fill="url(#body_t10)" stroke="#0c0c0c" stroke-width="11"/>
+  <path d="M 340,230 C 375,195 420,180 455,185" stroke="#ffffff" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <ellipse cx="500" cy="470" rx="105" ry="70" fill="#fff6da" stroke="#0c0c0c" stroke-width="9"/>
+  <ellipse cx="465" cy="470" rx="10" ry="16" fill="#3a2a1a" opacity="0.75"/>
+  <ellipse cx="535" cy="470" rx="10" ry="16" fill="#3a2a1a" opacity="0.75"/>
+  <path d="M 460,505 Q 500,525 540,505" stroke="#0c0c0c" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <ellipse cx="462" cy="452" rx="7" ry="9" fill="url(#gem_t10)" opacity="0.9"/>
+  <ellipse cx="538" cy="452" rx="7" ry="9" fill="url(#gem_t10)" opacity="0.9"/>
+
+  <g stroke="#0c0c0c" stroke-width="8" stroke-linejoin="round" fill="url(#horn_t10)">
+    <path d="M 330,270 C 300,200 280,140 290,80 C 330,120 355,180 365,255 Z"/>
+    <path d="M 670,270 C 700,200 720,140 710,80 C 670,120 645,180 635,255 Z"/>
+  </g>
+
+  <circle cx="305" cy="330" r="48" fill="#8b3fd6" stroke="#0c0c0c" stroke-width="8"/>
+  <circle cx="695" cy="330" r="48" fill="#8b3fd6" stroke="#0c0c0c" stroke-width="8"/>
+  <circle cx="305" cy="330" r="24" fill="#4a1c8c"/>
+  <circle cx="695" cy="330" r="24" fill="#4a1c8c"/>
+
+  
+  <g>
+    <circle cx="400" cy="360" r="60" fill="#ffffff" stroke="#0c0c0c" stroke-width="8"/>
+    <circle cx="412" cy="368" r="30" fill="#0f3d2a"/>
+    <circle cx="424" cy="352" r="10" fill="#ffffff"/>
+  </g>
+  <g>
+    <circle cx="600" cy="360" r="60" fill="#ffffff" stroke="#0c0c0c" stroke-width="8"/>
+    <circle cx="612" cy="368" r="30" fill="#0f3d2a"/>
+    <circle cx="624" cy="352" r="10" fill="#ffffff"/>
+  </g>
+
+  <path d="M 350,300 C 375,285 400,285 415,298" stroke="#0c0c0c" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M 585,298 C 600,285 625,285 650,300" stroke="#0c0c0c" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+  <circle cx="500" cy="700" r="34" fill="url(#gem_t10)" stroke="#0c0c0c" stroke-width="7"/>
+  <path d="M 488,688 L 500,678 L 512,688 L 505,706 L 495,706 Z" fill="#ffffff" opacity="0.8"/>
+
+  <ellipse cx="330" cy="760" rx="45" ry="60" fill="#8b3fd6" stroke="#0c0c0c" stroke-width="9" transform="rotate(-18 330 760)"/>
+  <ellipse cx="670" cy="760" rx="45" ry="60" fill="#8b3fd6" stroke="#0c0c0c" stroke-width="9" transform="rotate(18 670 760)"/>
+</svg>
